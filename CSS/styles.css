@@ -3,5 +3,6 @@ body{
     border: 1px solid pink;
 }
 h1 {
-    border: inherit
+    border: inherit;
+    color: red;
 }
