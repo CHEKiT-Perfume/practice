@@ -1,0 +1,27 @@
+ul{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    list-style-image: url(img/icon.png);
+}
+
+ol{
+    list-style-type: lower-alpha; 
+    list-style-type: none;
+} 
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: skyblue;
+    position: relative;
+}
+
+.box3{
+    background-color: tomato;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Practice</title>
+    </head>
+    <body>
+        <!-- <p>jQuery Practice</p>
+        <ul id="main">
+            <li>0</li>
+            <li class="item">1</li>
+            <li class="item">2</li>
+            <li>3
+                <ul id="sub">
+                    <li>3-0</li>
+                    <li>3-1</li>
+                    <li class="item">3-2</li>
+                    <li class="item">3-3</li>
+                    <li>3-4</li>
+                </ul>
+            </li>
+        </ul> -->
+        <p id=p1>practice</p>
+        <p id=p2>practice</p>
+        <input id=text type="text" value="hello">
+
+        <a href="http://google.com" google data-sitename="test"></a>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+            //    $(document).ready(function(){ 
+            //    });
+            // $(function(){
+            //$('p').css('color','red').hide('fast');
+            //$("#sub").css('color','red');
+            
+
+            $(function(){
+              //値の取得
+                console.log($('a').attr('href'));
+              //値の反映  aタグの値が変わる
+                $('a').attr('href','http://google.co.jp')
+            })
+        </script>
+
+        <script>
+            //値の取得
+            $(function(){
+                console.log($('a').data('sitename'));
+            })
+        </script>
+
+        <script>
+            //id=p1の文字を変更する
+            $(function(){
+                $('#p1').text('just changed');
+            })
+        </script>
+
+        <script>
+            //id=p2のHTMLを変更する
+            $(function(){
+                $('#p2').html('<a href="">click me</a>');
+            })
+        </script>
+
+        <script>
+            //id=textのvalue値を変更する
+            $(function(){
+                $('#id=text').val('いまかえたとこ');
+            })
+        </script>
+
+
+    </body>
+    </html>

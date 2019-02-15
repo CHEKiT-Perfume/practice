@@ -1,0 +1,10 @@
+p {
+    line-height: 5;
+    background-color: pink;
+}
+
+img{
+    /* vertical-align: top; */
+    /* vertical-align: bottom; */
+    vertical-align: middle;
+}
